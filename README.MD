@@ -10,22 +10,38 @@
     Colab 기준으로 3번 실행 이후 다양한 라이브러리 dependency Error가 발생할 수 있음
     설치가 잘 되고 Error가 출력된 경우 문제없이 아래 수행
     설치가 막힌 경우에는 Tensorflow 2.5 , numpy 1.19를 벗어나지 않는 선에서 수정
-    필수 패키지는 아래 참고
-    h5py==3.1.0
-    imgaug==0.4.0
-    ipython==8.11.0
-    keras==2.11.0
-    keras_nightly==2.5.0.dev2021032900
-    matplotlib==3.6.3
-    numpy==1.19.3
-    opencv_python==4.6.0.66
-    pip==20.0.2
-    pycocotools==2.0.6
-    scikit_image==0.18.3
-    scikit_learn==1.2.2
-    scipy==1.7.3
-    setuptools==45.2.0
-    tensorflow==2.5.0
+    필수 패키지는 아래 참고  
+    
+    - h5py==3.1.0  
+    
+    - imgaug==0.4.0  
+    
+    - ipython==8.11.0  
+    
+    - keras==2.11.0 # 하지만 Tensorflow 2.5는 Keras 2.4.3과 함께 출시되었다는 점  
+    
+    # 잠시 제외- keras_nightly==2.5.0.dev2021032900
+    - matplotlib==3.6.3  
+    
+    - numpy==1.19.3  
+    
+    - opencv_python==4.6.0.66  
+    
+    # 제외 pip==20.0.2  
+    
+    - pycocotools==2.0.6    
+    # 윈도우에서 해당 라이브러리가 설치가 안된다면 $ pip install pycocotools-windows==2.0
+    
+    - scikit_image==0.18.3  
+    
+    - scikit_learn==1.2.2  
+    
+    - scipy==1.7.3  
+    
+    - setuptools==45.2.0  
+    
+    - tensorflow==2.5.0  
+    
 
 4. Pretrained Weight 다운로드
     아래 링크에서 학습된 weight 다운로드
