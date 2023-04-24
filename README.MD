@@ -20,17 +20,17 @@
     
     - keras==2.11.0 # 하지만 Tensorflow 2.5는 Keras 2.4.3과 함께 출시되었다는 점  
     
-    # 잠시 제외- keras_nightly==2.5.0.dev2021032900
+    * 잠시 제외- keras_nightly==2.5.0.dev2021032900
     - matplotlib==3.6.3  
     
     - numpy==1.19.3  
     
     - opencv_python==4.6.0.66  
     
-    # 제외 pip==20.0.2  
+    * 제외 pip==20.0.2  
     
     - pycocotools==2.0.6    
-    # 윈도우에서 해당 라이브러리가 설치가 안된다면 $ pip install pycocotools-windows==2.0
+    ### 윈도우에서 해당 라이브러리가 설치가 안된다면 $ pip install pycocotools-windows==2.0
     
     - scikit_image==0.18.3  
     
