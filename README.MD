@@ -28,7 +28,7 @@
     - opencv_python==4.6.0.66  
     
     * 제외 pip==20.0.2  
-    
+    * pip install Cython or conda install Cython 필요
     - pycocotools==2.0.6    
     ### 윈도우에서 해당 라이브러리가 설치가 안된다면 $ pip install pycocotools-windows==2.0
     
